@@ -1,6 +1,6 @@
 Guarda = -(float('inf'))
 Guarda_m = float('inf')
-for i in range(0, 1001):
+for i in range(0, 10):
     x = int(input())
     if x > Guarda:
         Guarda = x
