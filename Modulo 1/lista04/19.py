@@ -1,11 +1,11 @@
-x = int(input("número: "))
-if x == 5:
-    print(f"o número é igual a 5")
-elif x == 200:
-    print(f"o número é igual a 200")
-elif x == 400:
-    print(f"o número é igual a 400")
-if 500 > x > 1000:
-    print(f"o número está entre 500 e 1000")
+# Escreva um algoritmo para determinar se um número A é divisível por um outro número B. Esses valores devem ser fornecidos pelo usuário.
+Num1 = int(input("Digite um numero: "))
+Num2 = int(input("digite outro numero: "))
+if Num1 > Num2:
+    print("o {} é maior do que {}".format(Num1, Num2))
+elif Num1 < Num2:
+    print("o {} é menor do que {}".format(Num1, Num2))
 else:
-    print(f"o número não se encaixa nos escopos")
+    print("o {} é igual à {}".format(Num1, Num2))
+
+
