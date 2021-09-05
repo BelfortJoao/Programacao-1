@@ -1,4 +1,1 @@
-n = 1
-for i in range(0, 64):
-    n += 2 ** i
-print(n + 1)
+x = [int(input()) for x in range(15)]
