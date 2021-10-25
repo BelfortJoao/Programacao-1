@@ -1,6 +1,5 @@
-Arquivo_20050 = open(file1)
-for i in range(200, 50, -1):
-    Arquivo_20050.write(str(i))
-    Arquivo_20050.write("\n")
-Arquivo_20050.close()
-
+cont=0
+for i in range(10,99):
+    if i%2 !=0:
+        cont +=1
+print(cont)
